@@ -36,6 +36,14 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
 3. Posteriormente de click sobre su correo (parte superior derecha) y luego en la opción ```Copy Login Command```. Una vez cargue la nueva ventana, de click en la opción ```Display Tokeny```. Copie el comando que sale en la opción ```Log in with this token``` y colóquelo en el IBM Cloud Shell para iniciar sesión y acceder a su clúster de OpenShift.
 <br />
 
+<p align="center"><img src="Images/TokenFinal.gif"></p>
+
+<br />
+
+<p align="center"><img src="Images/TokenAccesoShell.PNG"></p>
+
+<br />
+
 4. En la consola de OpenShift cree un nuevo proyecto. Para ello, asegúrese de estar en el rol de ```Developer```, de click en la pestaña ```Project``` y luego ```Create Project```. Allí, asígne un nombre y de click en el botón ```Create```.
 <br />
 
