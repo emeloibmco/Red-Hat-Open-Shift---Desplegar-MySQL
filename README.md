@@ -3,14 +3,9 @@
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Desplegar base de datos MySQL](#Desplegar-base-de-datos-MySQL-floppy_disk)
-
-### Opción 1 💡
 4. [Acceso a la base de datos y CRUD con IBM Cloud Shell](#Acceso-a-la-base-de-datos-y-CRUD-con-IBM-Cloud-Shell-hammer-computer)
-
-### Opción 2 💡
-5. [CRUD con MySQL Workbench](#CRUD-con-MySQL-Workbench-wrench-gear)
-6. [Referencias](#Referencias-mag)
-7. [Autores](#Autores-black_nib)
+5. [Referencias](#Referencias-mag)
+6. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -85,14 +80,9 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    ```
    <br />
 
-## Opción 1 💡
+
 ## Acceso a la base de datos y CRUD con IBM Cloud Shell :hammer: :computer:
 <br />
-
-## Opción 2
-## CRUD con MySQL Workbench :wrench: :gear:
-<br />
-
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started"> Get Started PostgreSQL</a>.
