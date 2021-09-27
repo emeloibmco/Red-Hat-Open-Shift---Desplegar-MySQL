@@ -123,7 +123,7 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
 Para acceder a la base de datos MySQL que ha desplegado en el clúster de OpenShift siga los pasos que se muestran a continuación:
 <br />
 
-1. Abra una sesión de shell remota en un contenedor. Para ello, utilice el comando reemplazando el nombre del pod de MySQL cuyo estado es ```running```:
+1. Abra una sesión de shell remota en un contenedor. Para ello, utilice el siguiente comando reemplazando ```<pod>``` con el nombre del pod de MySQL cuyo estado es ```running```:
 
    ```
    oc rsh <pod>
