@@ -39,23 +39,23 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
 
 4. Acceda al proyecto creado en IBM Cloud Shell. Para ello utilice el comando:
 
-```
-oc project <nombre_proyecto>
-```
+   ```
+   oc project <nombre_proyecto>
+   ```
 
-Ejemplo:
+   Ejemplo:
 
-```
-oc project mysql-project
-```
-<br />
+   ```
+   oc project mysql-project
+   ```
+   <br />
 
 5. Realice una búsqueda en el catálogo sobre los recursos relacionados con MySQL que pueden ser desplegados en el clúster. Para ello coloque el comando:
 
-```
-oc new-app --search mysql
-```
-<br />
+   ```
+   oc new-app --search mysql
+   ```
+   <br />
 
 6. Despliegue el template de MySQL. Para este caso hay dos opciones que puede utilizar:
    * Sin almacenamiento persistente (```mysql```).
@@ -73,17 +73,17 @@ oc new-app --search mysql
 
 7. Verifique el estado de implementación de la base de datos. Para ello coloque el comando:
 
-```
-oc status
-```
-<br />
+   ```
+   oc status
+   ```
+   <br />
 
 8. Obtenga los pods de la MySQL y verifique que el despliegue se ha completado con éxito. Utilice el comando:
 
-```
-oc get pods
-```
-<br />
+   ```
+   oc get pods
+   ```
+   <br />
 
 ## Opción 1 💡
 ## Acceso a la base de datos y CRUD con IBM Cloud Shell :hammer: :computer:
