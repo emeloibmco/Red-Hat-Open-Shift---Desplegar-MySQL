@@ -75,6 +75,10 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    ```
    <br />
 
+   <p align="center"><img src="Images/BuscarMySQL.PNG"></p>
+
+   <br />
+
 7. Despliegue el template de MySQL. Para este caso hay dos opciones que puede utilizar:
    * Sin almacenamiento persistente (```mysql```).
    * Con almacenamiento persistente (```mysql-persistent```).
@@ -89,6 +93,10 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    > NOTA: Las varibles definidas permiten configurar el usuario, contraseña y nombre de la base de datos MySQL. Estos datos se necesitarán más adelante cuando acceda a la base de datos.
    <br />
 
+   <p align="center"><img src="Images/DesplegarMySQL.PNG"></p>
+
+   <br />
+
 8. Verifique el estado de implementación de la base de datos. Para ello coloque el comando:
 
    ```
@@ -96,11 +104,19 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    ```
    <br />
 
+   <p align="center"><img src="Images/oc_status.PNG"></p>
+
+   <br />
+
 9. Obtenga los pods de MySQL y verifique que el despliegue se ha completado con éxito. Utilice el comando:
 
    ```
    oc get pods
    ```
+   <br />
+
+   <p align="center"><img src="Images/pods-mysql.PNG"></p>
+
    <br />
 
 
