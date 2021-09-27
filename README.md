@@ -28,7 +28,7 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
 2. Ingrese a la consola web de OpenShift presionando el botón ```OpenShift web console```. 
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/Red-Hat-Open-Shift---Desplegar-MySQL/blob/main/Images/AccederConsolaOC.PNG"></p>
+<p align="center"><img src="Images/AccederConsolaOC.PNG"></p>
 
 <br />
 
