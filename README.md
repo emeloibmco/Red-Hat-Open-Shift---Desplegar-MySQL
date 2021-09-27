@@ -136,7 +136,21 @@ Para acceder a la base de datos MySQL que ha desplegado en el clúster de OpenSh
    ```
    <br />
 
-   <p align="center"><img src="Images/AccesoMySQL.PNG"></p>
+   <p align="center"><img src="Images/AccesoMySQL1.PNG"></p>
+
+   <br />
+
+2. Para acceder con las credenciales definidas en el despliegue de MySQL coloque:
+
+   ```
+   mysql -u user -p
+   ```
+   <br />
+   
+   Una vez ejecute el comando, coloque la contraseña establecida (```pass```) y presione enter para continuar.
+   <br />
+
+   <p align="center"><img src="Images/AccesoMySQL2.PNG"></p>
 
    <br />
 
