@@ -158,6 +158,129 @@ Para acceder a la base de datos MySQL que ha desplegado en el clúster de OpenSh
 
 
 ## CRUD con IBM Cloud Shell :hammer:
+Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
+<br />
+
+1. Visualice las instancias de base de datos. Para ello, utilice el comando:
+
+   ```
+   show databases;
+   ```
+   <br />
+   
+2. Seleccione la instancia creada durante el despliegue de la base de datos (```prueba```) con el comando:
+
+   ```
+   use prueba;
+   ```
+   <br />
+   
+3. Cree una tabla que contenga los datos y tipos de datos que se solicitan para completar los campos. Use el comando:
+
+   ```
+   CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
+   ```
+   
+   Ejemplo:
+   
+   ```
+   CREATE TABLE empleados (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), cedula integer, cargo varchar(30), empresa varchar(30), fecha date, primary key (id));
+   ```
+   <br />
+   
+4. Observe la tabla con el siguiente comando:
+
+   ```
+   select * from nombre_tabla;
+   ```
+   
+   Ejemplo:
+   
+   ```
+   select * from empleados;
+   ```
+   
+   > NOTA: como no ha registrado ningún dato en la tabla obtendrá una respuesta *Empty*.
+   <br />
+
+5. Agregue datos a la tabla con el siguiente comando:
+
+   ```
+   INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1, valor_2, ... , valor_n);
+   ```
+   
+   Ejemplo:
+   
+   ```
+   INSERT INTO empleados (nombre, apellido, ciudad, cedula, cargo, empresa, fecha) VALUES('Diana', 'Espitia', 'Bogotá', 1234567890, 'Intern', 'IBM', '2021-09-27');
+   ```
+   <br />
+   
+   Visualice la tabla e identifique los datos agregados.
+   
+   ```
+   select * from nombre_tabla;
+   ```
+   
+   Ejemplo:
+   
+   ```
+   select * from empleados;
+   ```
+   <br />
+   
+6. Actualice los datos de la tabla teniendo en cuenta el ID en cada caso. Para ello, utilice el comando:
+
+   ```
+   UPDATE nombre_tabla set columna_1=valor_nuevo where id=1;
+   ```
+   
+   Ejemplo:
+   
+   ```
+   UPDATE empleados set nombre='Andrea' where id=1;
+   ```
+   <br />
+   
+   Visualice la tabla e identifique los datos agregados.
+   
+   ```
+   select * from nombre_tabla;
+   ```
+   
+   Ejemplo:
+   
+   ```
+   select * from empleados;
+   ```
+   <br />
+
+7. Elimine los datos de la tabla teniendo en cuenta el ID en cada caso. Use el comando:
+
+   ```
+   DELETE FROM nombre_tabla WHERE id=1;
+   ```
+   
+   Ejemplo:
+   
+   ```
+   DELETE FROM empleados WHERE id=1;
+   ```
+   <br />
+   
+   Visualice la tabla e identifique los datos agregados.
+   
+   ```
+   select * from nombre_tabla;
+   ```
+   
+   Ejemplo:
+   
+   ```
+   select * from empleados;
+   ```
+   <br />
+   
 <br />
 
 ## Referencias :mag:
