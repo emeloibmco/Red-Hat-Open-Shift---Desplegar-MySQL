@@ -181,6 +181,12 @@ Una vez ha desplegado y accedido a la base de datos MySQL en OpenShift, se conti
 2. Seleccione la instancia creada durante el despliegue de la base de datos (```prueba```) con el comando:
 
    ```
+   use <nombre_instancia>;
+   ```
+
+   Ejemplo:
+   
+   ```
    use prueba;
    ```
    <br />
