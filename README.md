@@ -1,1 +1,1 @@
-# Red-Hat-Open-Shift---Desplegar-MySQL
+# Red Hat OpenShift - Desplegar MySQL
