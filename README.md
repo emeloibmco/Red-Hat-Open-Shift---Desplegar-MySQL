@@ -253,7 +253,7 @@ Una vez ha desplegado y accedido a la base de datos MySQL en OpenShift, se conti
 6. Actualice los datos de la tabla teniendo en cuenta el ID en cada caso. Para ello, utilice el comando:
 
    ```
-   UPDATE nombre_tabla set columna_1=valor_nuevo where id=1;
+   UPDATE nombre_tabla set columna_1=valor_nuevo where id=x;
    ```
    
    Ejemplo:
@@ -283,7 +283,7 @@ Una vez ha desplegado y accedido a la base de datos MySQL en OpenShift, se conti
 7. Elimine los datos de la tabla teniendo en cuenta el ID en cada caso. Use el comando:
 
    ```
-   DELETE FROM nombre_tabla WHERE id=1;
+   DELETE FROM nombre_tabla WHERE id=x;
    ```
    
    Ejemplo:
