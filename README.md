@@ -8,7 +8,7 @@
 4. [CRUD con IBM Cloud Shell](#CRUD-con-IBM-Cloud-Shell-hammer-computer)
 
 ### Opción 2 💡
-5. [CRUD con MySQL Workbench](#CRUD-con-IBM-Cloud-Shell-wrench-gear)
+5. [CRUD con MySQL Workbench](#CRUD-con-MySQL-Workbench-wrench-gear)
 6. [Referencias](#Referencias-mag)
 7. [Autores](#Autores-black_nib)
 <br />
@@ -27,11 +27,11 @@
 ## Desplegar base de datos MySQL :floppy_disk:
 <br />
 
-### Opción 1 💡
+## Opción 1 💡
 ## CRUD con IBM Cloud Shell :hammer: :computer:
 <br />
 
-### Opción 2
+## Opción 2
 ## CRUD con MySQL Workbench :wrench: :gear:
 <br />
 
