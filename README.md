@@ -62,7 +62,7 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    * Con almacenamiento persistente (```mysql-persistent```).
    <br />
    
-   Para este caso, se utiliza la plantilla con almacenamiento de volumen persistente para los datos de la base de datos, ya que esto permite que los datos sobrevivan y no se pierdan cuando el pod se reinicie. Por otro lado, en el despliegue se deben indicar algunas variables de entorno para la configuración del servidor. Utilice el comando:
+   Para este caso, se utiliza la plantilla con almacenamiento de volumen persistente, ya que esto permite que los datos sobrevivan y no se pierdan cuando el pod se reinicie. Por otro lado, en el despliegue se deben indicar algunas variables de entorno para la configuración del servidor. Utilice el comando:
    
    ```
    oc new-app mysql-persistent --param=MYSQL_USER=user --param=MYSQL_PASSWORD=pass --param=MYSQL_DATABASE=prueba --name mysql
