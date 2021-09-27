@@ -114,13 +114,31 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    ```
    <br />
 
-   <p align="center"><img src="Images/pods-mysql.PNG"></p>
+   <p align="center"><img src="Images/pods-mysql-running.PNG"></p>
 
    <br />
 
 
 ## Acceso a la base de datos y CRUD con IBM Cloud Shell :hammer: :computer:
+Para acceder a la base de datos MySQL que ha desplegado en el clúster de OpenShift siga los pasos que se muestran a continuación:
 <br />
+
+1. Abra una sesión de shell remota en un contenedor. Para ello, utilice el comando reemplazando el nombre del pod de MySQL cuyo estado es ```running```:
+
+   ```
+   oc rsh <pod>
+   ```
+   
+   Ejemplo:
+   
+   ```
+   oc rsh mysql-1-r9pv2
+   ```
+   <br />
+
+   <p align="center"><img src="Images/AccesoMySQL.PNG"></p>
+
+   <br />
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started"> Get Started PostgreSQL</a>.
