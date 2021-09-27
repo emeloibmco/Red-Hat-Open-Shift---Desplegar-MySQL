@@ -78,7 +78,7 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    ```
    <br />
 
-8. Obtenga los pods de la MySQL y verifique que el despliegue se ha completado con éxito. Utilice el comando:
+8. Obtenga los pods de MySQL y verifique que el despliegue se ha completado con éxito. Utilice el comando:
 
    ```
    oc get pods
