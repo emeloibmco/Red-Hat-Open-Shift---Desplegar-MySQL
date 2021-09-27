@@ -12,28 +12,23 @@
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud</a>.
 * Contar con un clúster en OpenShift.
 * Opcional: instalación de <a href="https://www.mysql.com/products/workbench/"> MySQL Workbench</a> (en caso de realizar CRUD con esta herramienta - Opción 2). 
-<br />
-
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/EliminarDatos.gif"></p>
-
-<br />
 
 
 ## Desplegar base de datos MySQL :floppy_disk:
 Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShift, complete los siguientes pasos:
 <br />
 
-1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"> <img width="25" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Shell_IBM.PNG"></a>, que se ubica en la parte superior derecha del portal. 
+1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"> <img width="25" src="https://github.com/emeloibmco/Red-Hat-Open-Shift---Desplegar-MySQL/blob/main/Images/Shell_IBM.png"></a>, que se ubica en la parte superior derecha del portal. 
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Kubernetes-Applicacion-.Net/blob/main/Images/IBMCloudShell.PNG"></p>
+<p align="center"><img src="Images/IBMCloudShell.png"></p>
 
 <br />
 
 2. Ingrese a la consola web de OpenShift presionando el botón ```OpenShift web console```. 
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Kubernetes-Applicacion-.Net/blob/main/Images/IBMCloudShell.PNG"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Red-Hat-Open-Shift---Desplegar-MySQL/blob/main/Images/AccederConsolaOC.PNG"></p>
 
 <br />
 
