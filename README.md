@@ -148,7 +148,7 @@ Para acceder a la base de datos MySQL que ha desplegado en el clúster de OpenSh
    ```
    <br />
    
-   Una vez ejecute el comando, coloque la contraseña establecida (```pass```) y presione enter para continuar.
+   Una vez ejecute el comando, coloque la contraseña establecida (```pass```) y presione enter para continuar. Si la contraseña es correcta, accederá con exito a la base de datos.
    
    <br />
 
