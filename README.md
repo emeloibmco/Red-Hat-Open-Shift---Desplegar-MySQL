@@ -47,6 +47,10 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
 4. En la consola de OpenShift cree un nuevo proyecto. Para ello, asegúrese de estar en el rol de ```Developer```, de click en la pestaña ```Project``` y luego ```Create Project```. Allí, asígne un nombre y de click en el botón ```Create```.
 <br />
 
+<p align="center"><img src="Images/Crear-Proyecto.gif"></p>
+
+<br />
+
 5. Acceda al proyecto creado en IBM Cloud Shell. Para ello utilice el comando:
 
    ```
@@ -58,6 +62,10 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
    ```
    oc project mysql-project
    ```
+   <br />
+
+   <p align="center"><img src="Images/AccesoProyecto.PNG"></p>
+
    <br />
 
 6. Realice una búsqueda en el catálogo sobre los recursos relacionados con MySQL que pueden ser desplegados en el clúster. Para ello coloque el comando:
