@@ -167,12 +167,20 @@ Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se co
    show databases;
    ```
    <br />
+
+   <p align="center"><img src="Images/Verdb.PNG"></p>
+
+   <br />
    
 2. Seleccione la instancia creada durante el despliegue de la base de datos (```prueba```) con el comando:
 
    ```
    use prueba;
    ```
+   <br />
+
+   <p align="center"><img src="Images/Cambiardb.PNG"></p>
+
    <br />
    
 3. Cree una tabla que contenga los datos y tipos de datos que se solicitan para completar los campos. Use el comando:
@@ -186,6 +194,10 @@ Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se co
    ```
    CREATE TABLE empleados (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), cedula integer, cargo varchar(30), empresa varchar(30), fecha date, primary key (id));
    ```
+   <br />
+
+   <p align="center"><img src="Images/CrearTabla.PNG"></p>
+
    <br />
    
 4. Observe la tabla con el siguiente comando:
@@ -201,6 +213,11 @@ Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se co
    ```
    
    > NOTA: como no ha registrado ningún dato en la tabla obtendrá una respuesta *Empty*.
+   
+   <br />
+
+   <p align="center"><img src="Images/SeleccionarTabla.PNG"></p>
+
    <br />
 
 5. Agregue datos a la tabla con el siguiente comando:
@@ -227,6 +244,10 @@ Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se co
    ```
    select * from empleados;
    ```
+   <br />
+
+   <p align="center"><img src="Images/InsertarDatos.PNG"></p>
+
    <br />
    
 6. Actualice los datos de la tabla teniendo en cuenta el ID en cada caso. Para ello, utilice el comando:
@@ -255,6 +276,10 @@ Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se co
    ```
    <br />
 
+   <p align="center"><img src="Images/ActualizarDatos.PNG"></p>
+
+   <br />
+
 7. Elimine los datos de la tabla teniendo en cuenta el ID en cada caso. Use el comando:
 
    ```
@@ -279,6 +304,10 @@ Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se co
    ```
    select * from empleados;
    ```
+   <br />
+
+   <p align="center"><img src="Images/EliminarDatos.PNG"></p>
+
    <br />
    
 <br />
