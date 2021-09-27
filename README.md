@@ -1,4 +1,4 @@
-# Red Hat OpenShift - Desplegar MySQL ☁
+# Red Hat OpenShift - Despliegue de base de datos MySQL ☁
 
 MySQL es un servicio de bases de datos totalmente administrado que permite trabajar e implementar aplicaciones nativas de nube. Este servicio puede ser desplegado en plataformas como OpenShift.
 
