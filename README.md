@@ -26,6 +26,10 @@ Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShi
 1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"> <img width="25" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Shell_IBM.PNG"></a>, que se ubica en la parte superior derecha del portal. 
 <br />
 
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Kubernetes-Applicacion-.Net/blob/main/Images/IBMCloudShell.PNG"></p>
+
+<br />
+
 2. Ingrese a la consola web de OpenShift presionando el botón ```OpenShift web console```. 
 <br />
 
