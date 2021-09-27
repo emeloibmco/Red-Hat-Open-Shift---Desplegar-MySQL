@@ -275,7 +275,7 @@ Una vez ha desplegado y accedido a la base de datos MySQL en OpenShift, se conti
    ```
    <br />
    
-   Visualice la tabla e identifique los datos agregados.
+   Visualice la tabla e identifique los datos actualizados.
    
    ```
    select * from nombre_tabla;
