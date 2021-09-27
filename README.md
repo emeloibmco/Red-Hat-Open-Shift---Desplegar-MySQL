@@ -158,7 +158,7 @@ Para acceder a la base de datos MySQL que ha desplegado en el clúster de OpenSh
 
 
 ## CRUD con IBM Cloud Shell :hammer:
-Una vez se ha desplegado y accedido a la base de datos MySQL en OpenShift, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
+Una vez ha desplegado y accedido a la base de datos MySQL en OpenShift, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
 <br />
 
 1. Visualice las instancias de base de datos. Para ello, utilice el comando:
