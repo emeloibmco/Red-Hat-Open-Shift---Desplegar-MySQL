@@ -1,5 +1,11 @@
 # Red Hat OpenShift - Desplegar MySQL ☁
 
+MySQL es un servicio de bases de datos totalmente administrado que permite trabajar e implementar aplicaciones nativas de nube. Este servicio puede ser desplegado en plataformas como OpenShift.
+
+La presente guía se enfoca en el despliegue de una base de datos MySQL en un clúster de OpenShift dentro de una cuenta de IBM Cloud. Adicionalmente, se indican los pasos necesarios para acceder y trabajar las operaciones de CRUD desde el Shell de IBM Cloud.
+
+<br />
+
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Desplegar base de datos MySQL](#Desplegar-base-de-datos-MySQL-floppy_disk)
@@ -313,7 +319,8 @@ Una vez ha desplegado y accedido a la base de datos MySQL en OpenShift, se conti
 <br />
 
 ## Referencias :mag:
-* <a href="https://cloud.ibm.com/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started"> Get Started PostgreSQL</a>.
+* <a href="https://docs.openshift.com/online/pro/using_images/db_images/mysql.html"> MySQL Databases images - OpenShift</a>.
+* <a href="https://www.mysql.com/"> MySQL</a>.
 <br />
 
 
