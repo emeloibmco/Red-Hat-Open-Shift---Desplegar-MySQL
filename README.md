@@ -12,7 +12,7 @@
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud</a>.
 * Contar con un clúster en OpenShift.
 * Opcional: instalación de <a href="https://www.mysql.com/products/workbench/"> MySQL Workbench</a> (en caso de realizar CRUD con esta herramienta - Opción 2). 
-
+<br />
 
 ## Desplegar base de datos MySQL :floppy_disk:
 Para realizar el despliegue de una base de datos MySQL en un clúster de OpenShift, complete los siguientes pasos:
